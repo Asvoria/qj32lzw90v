@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Continental Electronics Pte Ltd (Singapore)">
+    <title>Continental Electronics Queue Table</title>
+    <link rel="stylesheet" href="table.css">
+  </head>
+  <body onload="blinker();">
+
+<table>
+  <caption>Queue Call</caption>
+  <thead>
+    <tr>
+      <th scope="col">Room</th>
+      <th scope="col">Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Room">R01</td>
+      <td data-label="Number">8765</td>
+    </tr>
+    <tr id="blink">
+      <td scope="row" data-label="Room">R02</td>
+      <td data-label="Number">1234</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Room">R03</td>
+      <td data-label="Number">2318</td>
+    </tr>
+    <tr>
+      <td scope="row" data-label="Room">R04</td>
+      <td data-label="Number">2589</td>
+    </tr>
+  </tbody>
+</table>
+<script src="table.js"></script>
+  </body>
+</html>

@@ -1,3 +1,2 @@
-# qj32lzw90v
-
-https://asvoria.github.io/qj32lzw90v/
+# world-clock
+https://asvoria.github.io/world-clock/
